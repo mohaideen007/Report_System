@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ProblemsApplication",
+            "request": "launch",
+            "mainClass": "com.example.problems.ProblemsApplication",
+            "projectName": "problems"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ReportUsersApplication<Report_Users>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.Report.Report_Users.ReportUsersApplication",
+            "projectName": "Report_Users",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
